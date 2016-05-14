@@ -1,0 +1,16 @@
+{
+  "name": "typescript-nodejs-helloworld",
+  "version": "1.0.0",
+  "description": "Hello world example with nodejs/expressjs in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "m25lazi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}
