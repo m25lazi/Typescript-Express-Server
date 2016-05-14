@@ -13,4 +13,4 @@ Microsoft guide : https://code.visualstudio.com/docs/runtimes/nodejs#_typings
 
 * Add a reference to the main typings file (something.d.ts) in index.ts
 * Create Procfile which asks to run tsc command (to create corresponding .js file wherever specified) and start node
-
+* Add all js files (*.js) in gitignore (and node_modules as usual). tsc command in Procfile will generate those for us.
