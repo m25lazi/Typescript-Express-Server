@@ -33,7 +33,7 @@ This will create a tsconfig.json that contains compilerOptions required for type
 * Create Procfile which asks to install all typings dependencies,  run tsc command (to create corresponding .js file wherever specified) and start node
 * Add all js files (*.js), typings folder in gitignore (and node_modules as usual). tsc command in Procfile will generate those for us.
 
-
-App can be deployed to Heroku without initializing typings, tsc (where both tsconfig.json, typings.json wont be there).Instead you have to push typings folder completely to Heroku GIT. And make necessary changes in Procfile so that there is no need to install typings seperately and add tsc compilerOptions directly in Procfile itself 
+###Note
+App can also be deployed to Heroku without initializing typings, tsc (where both tsconfig.json, typings.json wont be there). Instead you have to push typings folder completely to Heroku GIT. And make necessary changes in Procfile, so that there is no need to install typings seperately and add tsc compilerOptions directly in Procfile itself 
 
 `./node_modules/.bin/tsc --module commonjs --outDir build/ --noImplicitAny --sourceMap --target ES5 index.ts`
