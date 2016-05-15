@@ -8,6 +8,6 @@ app.listen(port, ()=>{
     console.log("Started");
 })
 
-app.get('/about', (request, response)=>{
+app.get('/', (request, response)=>{
     response.end("Typescript Express Server")
 } )
