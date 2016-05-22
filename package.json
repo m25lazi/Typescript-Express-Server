@@ -4,7 +4,8 @@
   "description": "Hello world example with nodejs/expressjs in typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js"
   },
   "author": "m25lazi",
   "license": "MIT",
