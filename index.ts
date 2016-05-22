@@ -3,7 +3,7 @@
 import express = require("express");
 var app = express();
 
-var port = parseInt(process.env.PORT, 10) || 3000;
+var port = parseInt(process.env.PORT, 10) || 8080;
 app.listen(port, ()=>{
     console.log("Started");
 })
