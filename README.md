@@ -15,6 +15,9 @@ Microsoft guide : https://code.visualstudio.com/docs/runtimes/nodejs#_typings
 
 `typings install node --ambient --save`
 
+OR use like this:
+`typings install dt~node --save --global`
+
 `typings install express serve-static express-serve-static-core --ambient --save`
 
 `typings install mime --ambient --save`
